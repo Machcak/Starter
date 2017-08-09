@@ -10,7 +10,27 @@
       <directory>${project.build.directory}</directory>
       <includes>
           <include>*.jar</include>
+      </includes>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>${project.build.directory}/lib/</directory>
+      <includes>
+          <include>*.jar</include>
+      </includes>
+      <outputDirectory>/lib/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>${project.build.directory}/config/</directory>
+      <includes>
           <include>*.properties</include>
+      </includes>
+      <outputDirectory>/config/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>${project.build.directory}/config/</directory>
+      <includes>
+          <include>*.bat</include>
       </includes>
       <outputDirectory>/</outputDirectory>
     </fileSet>
